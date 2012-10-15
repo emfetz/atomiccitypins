@@ -7,7 +7,7 @@ gem 'rails', '3.2.8'
 gem 'locomotive_cms', '~> 2.0.0.rc11', :require => 'locomotive/engine'
 
 gem 's3', :group => 'production'
-# gem 'aws/s3', :group => 'production'
+gem 'aws/s3', :group => 'production'
 
 gem 'locomotive-heroku', '~> 0.0.2', :require => 'locomotive/heroku'
 gem 'thin', :group => 'production'
